@@ -36,6 +36,7 @@ describe("#wordSearch()", function() {
     assert.isTrue(result);
   });
 
+  //Co-authored with Moon Choi (moon-choi)
   it("should return true if the word is present vertically", function() {
     const result = wordSearch([
       ['A', 'W', 'C', 'F', 'Q', 'U', 'A', 'L'],

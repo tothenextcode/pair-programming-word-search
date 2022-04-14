@@ -1,3 +1,5 @@
+//Co-authored with Moon Choi (moon-choi)
+
 const wordSearch = (letters, word) => {
   const horizontalJoin = letters.map((ls) => ls.join(""));
   const verticalJoin = joinVertically(letters).map((ls) => ls.join(""));
